@@ -18,7 +18,7 @@ public class Boletin2_1 {
        System.out.println("Introduzca los precios,primero el recio tarifa(Original) y luego el pagado");
        prezoTarifa= ler.nextDouble();
        PrezoPagado= ler.nextDouble();
-       System.out.println((prezoTarifa-PrezoPagado)+"%");
+       System.out.println(((prezoTarifa-PrezoPagado)/(PrezoPagado+prezoTarifa)*100)+"%");
         
         
     }
